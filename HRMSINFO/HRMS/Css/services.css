@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid red; */
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fdfeff;
+  overflow-x: hidden;
+}
+
+
+/* -------------------  nav section start here -----------------------*/
+.logo-img {
+    width: 80px;
+    padding-top: 7px;
+  }
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  .img {
+    width: 105px;
+  }
+  #ul {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  #ul li:hover {
+    opacity: 0.4;
+  }
+  #signup_btn {
+    font-weight: 600;
+    width: 74px;
+    height: 33px;
+    padding: 3px 0px;
+  }
+  .about-main {
+    text-decoration: none;
+    color: #000;
+  }
+  .home-main {
+    text-decoration: none;
+    color: #000;
+  }
+  #contact_btn {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  @media (max-width: 480px) {
+    #ul_menu {
+      display: none;
+    }
+  }
+  @media (max-width: 767px) {
+    #ul_menu {
+      display: none;
+    }
+  }
+  
+  /* -------------------  nav section End here -----------------------*/
+#cards{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  #head-points{
+      font-size: 17px;
+      text-align: center;
+      font-weight: 600;
+  
+  }
+  #discription{
+      font-size: 15px;
+      text-align: center;
+  
+  }
+  .Ess-para{
+    text-align: center;
+    line-height: 12px;
+    font-size: 15px
+  }
+
+
+    
+  
+/*---------------- FOOTER STYLE  start HERE ---------------*/
+footer {
+    background: #fff;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    top: 20h;
+    border-top: 2px solid darkgrey;
+  }
+  
+  footer .bottom-details .bottom_text {
+    max-width: 1250px;
+    margin: auto;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bottom-details .bottom_text span,
+  .bottom-details .bottom_text a {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+    text-decoration: none;
+  }
+  .bottom-details .bottom_text a:hover {
+    opacity: 1;
+    text-decoration: underline;
+  }
+  .bottom-details .bottom_text a {
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 700px) {
+    footer {
+      position: relative;
+    }
+    .bottom-details .bottom_text span,
+    .bottom-details .bottom_text a {
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 520px) {
+    footer::before {
+      top: 145px;
+    }
+  }
+  .office {
+    font-size: 14px;
+    font-weight: 600;
+   
+    display: flex;
+    gap: 10px;
+    padding-bottom: 5px;
+  }
+  .address {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .footer-ul {
+    list-style-type: none;
+    text-decoration: none;
+  }
+  li a {
+    text-decoration: none;
+    font-weight: 400;
+    color:#000;
+  }
+  li a:hover {
+    text-decoration: underline;
+    color: #007db8;
+  }
+  .link_name{
+    font-weight: 600;
+  }
+  
+  /*---------------- FOOTER STYLE  end HERE ---------------*/
+  
